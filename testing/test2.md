@@ -1,6 +1,6 @@
-## Comparing the eouting convergebce time
+## Comparing the routing convergence time
 
-The second test, we will measure the convergence time in different network scales with 2ms delay.
+In the second test, we will measure the convergence time in different network scales with 2ms delay.
 
 First we have to run our custom topology in mininet.
 
@@ -8,7 +8,7 @@ First we have to run our custom topology in mininet.
 sudo mn --link tc,delay=2ms --controller=remote,ip=IP_OF_CONTROLLER,port=6653 --custom TOPOLOGY.py --topo mytopo
 ```
 
-Then we will start http server on h2, because we will be testing httping from host h1. So in mininet, we type:
+Then we will start http server on host h2, because we will be testing httping from host h1. In mininet, we type:
 
 ```
 h2 python -m SimpleHTTPServer 80
@@ -29,9 +29,9 @@ example
 tcpdump -i s2-eth3 src 10.0.0.1
 ```
 
-when we are shure about interface than we shut that link down
+when we are sure about interface than we shut that link down
 
-exapmle
+example
 ```
 link s2 s4 down
 ```
