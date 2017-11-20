@@ -739,13 +739,13 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i1_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R1\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.0.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet3/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -569,
-                "y": 29,
+                "x": -562,
+                "y": 70,
                 "z": 1
             },
             {
@@ -807,12 +807,12 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i2_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R2\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R2\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.0.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.1.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.2.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -411,
+                "x": -407,
                 "y": 107,
                 "z": 1
             },
@@ -875,7 +875,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i4_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R4\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R4\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.2.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.3.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.5.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n ip address 10.0.6.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -943,7 +943,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i5_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R5\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R5\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.5.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.7.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.8.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1011,7 +1011,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i6_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R6\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R6\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.6.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.9.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.7.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n ip address 10.0.10.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1079,7 +1079,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i7_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R7\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R7\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.4.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.9.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.11.1 255.255.255.0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1147,7 +1147,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i8_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R8\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R8\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.10.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.11.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.12.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n ip address 10.0.13.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1215,13 +1215,13 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i9_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R9\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R9\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.8.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.12.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.14.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
                 "x": 211,
-                "y": 145,
+                "y": 146,
                 "z": 1
             },
             {
@@ -1283,12 +1283,12 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i10_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R10\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R10\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.13.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.15.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.16.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 256,
+                "x": 257,
                 "y": -75,
                 "z": 1
             },
@@ -1351,7 +1351,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i11_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R11\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R11\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.15.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.17.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1362,7 +1362,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5011,
+                "console": 5002,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1419,7 +1419,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i12_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R12\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R12\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.16.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.17.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.18.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n ip address 10.0.19.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1430,7 +1430,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5012,
+                "console": 5027,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1487,7 +1487,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i13_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R13\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R13\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.14.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.18.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.20.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1498,7 +1498,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5014,
+                "console": 5028,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1555,7 +1555,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i15_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R15\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R15\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.19.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.21.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.22.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1566,7 +1566,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5015,
+                "console": 5029,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1623,7 +1623,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i16_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R16\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R16\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.22.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet3/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1634,7 +1634,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5030,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1691,7 +1691,7 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i3_startup-config.cfg",
-                    "startup_config_content": "!\n!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R3\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R3\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.1.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.3.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n ip address 10.0.4.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
@@ -1702,7 +1702,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5013,
+                "console": 5031,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1759,13 +1759,13 @@
                     "slot6": null,
                     "sparsemem": true,
                     "startup_config": "configs/i14_startup-config.cfg",
-                    "startup_config_content": "!\n!\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R14\n!\nip cef\nno ip domain-lookup\nno ip icmp rate-limit unreachable\nip tcp synwait 5\nno cdp log mismatch duplex\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\nline aux 0\n exec-timeout 0 0\n logging synchronous\n privilege level 15\n no login\n!\n!\nend\n",
+                    "startup_config_content": "!\n\n!\nupgrade fpd auto\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R14\n!\nboot-start-marker\nboot-end-marker\n!\nlogging message-counter syslog\n!\nno aaa new-model\nip source-route\nno ip icmp rate-limit unreachable\nip cef\n!\n!\n!\n!\nno ip domain lookup\nno ipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\narchive\n log config\n  hidekeys\n! \n!\n!\n!\n!\nip tcp synwait-time 5\n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface GigabitEthernet1/0\n ip address 10.0.20.2 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet2/0\n ip address 10.0.21.1 255.255.255.0\n ip ospf 1 area 0\n negotiation auto\n!\ninterface GigabitEthernet3/0\n no ip address\n shutdown\n negotiation auto\n!\ninterface GigabitEthernet4/0\n no ip address\n shutdown\n negotiation auto\n!\nrouter ospf 1\n log-adjacency-changes\n!\nip forward-protocol nd\nno ip http server\nno ip http secure-server\n!\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\nend\n",
                     "system_id": "FTX0945W0MY"
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 556,
-                "y": 167,
+                "x": 555,
+                "y": 171,
                 "z": 1
             }
         ]
