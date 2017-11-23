@@ -1,0 +1,468 @@
+Starting tests 
+Test number  15
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1461.57 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1461.36 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16662.92 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1611.44 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+4 connects, 4 ok, 0.00% failed, time 25038ms
+round-trip min/avg/max = 1461.4/5299.3/16662.9 ms
+Test number  14
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1605.26 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1616.77 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=1601.42 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1617.09 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=1767.44 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=1610.40 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=1617.47 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=1612.77 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=1596.68 ms 
+After link up 
+connected to 10.0.0.2:80 (158 bytes), seq=9 time=1619.23 ms 
+--- 10.0.0.2 ping statistics ---
+10 connects, 10 ok, 0.00% failed, time 25268ms
+round-trip min/avg/max = 1596.7/1626.5/1767.4 ms
+Test number  13
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1622.31 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1590.89 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=1593.44 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1611.76 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=1603.13 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=1603.89 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=1602.41 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=1603.78 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=1607.17 ms 
+After link up 
+connected to 10.0.0.2:80 (158 bytes), seq=9 time=1605.11 ms 
+--- 10.0.0.2 ping statistics ---
+10 connects, 10 ok, 0.00% failed, time 25046ms
+round-trip min/avg/max = 1590.9/1604.4/1622.3 ms
+Test number  12
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1598.74 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1593.08 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=1597.52 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1605.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=1604.50 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=1700.87 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=1701.66 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=1693.71 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=1702.56 ms 
+After link up 
+connected to 10.0.0.2:80 (158 bytes), seq=9 time=1695.42 ms 
+--- 10.0.0.2 ping statistics ---
+10 connects, 10 ok, 0.00% failed, time 25497ms
+round-trip min/avg/max = 1593.1/1649.4/1702.6 ms
+Test number  11
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1378.80 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1378.41 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16527.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1592.72 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25051ms
+round-trip min/avg/max = 1378.4/5219.4/16527.8 ms
+Test number  10
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1393.68 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1392.79 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16558.12 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1658.93 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25048ms
+round-trip min/avg/max = 1392.8/5250.9/16558.1 ms
+Test number  9
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1381.58 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1381.90 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16557.64 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1636.28 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25046ms
+round-trip min/avg/max = 1381.6/5239.4/16557.6 ms
+Test number  8
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1372.53 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1368.71 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16556.38 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1655.12 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25055ms
+round-trip min/avg/max = 1368.7/5238.2/16556.4 ms
+Test number  7
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1494.57 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1392.65 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16662.49 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1639.92 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+4 connects, 4 ok, 0.00% failed, time 25039ms
+round-trip min/avg/max = 1392.7/5297.4/16662.5 ms
+Test number  6
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1385.69 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1388.16 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16559.97 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1643.27 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25066ms
+round-trip min/avg/max = 1385.7/5244.3/16560.0 ms
+Test number  5
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1379.95 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1383.68 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16557.10 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1644.77 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25055ms
+round-trip min/avg/max = 1380.0/5241.4/16557.1 ms
+Test number  4
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1387.66 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1384.59 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16560.46 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1640.16 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25047ms
+round-trip min/avg/max = 1384.6/5243.2/16560.5 ms
+Test number  3
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1372.57 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1380.76 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16567.49 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1647.12 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25050ms
+round-trip min/avg/max = 1372.6/5242.0/16567.5 ms
+Test number  2
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1385.23 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1376.19 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16566.71 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1637.91 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25039ms
+round-trip min/avg/max = 1376.2/5241.5/16566.7 ms
+Test number  1
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=1389.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=1387.25 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=16555.46 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=1644.06 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+5 connects, 4 ok, 0.00% failed, time 25046ms
+round-trip min/avg/max = 1387.3/5244.2/16555.5 ms
+Starting tests 
+Test number  15
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=115.85 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=115.03 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=114.32 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=113.91 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=115.67 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15181.34 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=140.01 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=139.64 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=135.14 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25043ms
+round-trip min/avg/max = 113.9/1796.8/15181.3 ms
+Test number  14
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=153.44 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=143.93 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=140.96 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=153.69 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=144.00 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=142.23 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=133.51 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=151.41 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=137.74 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=9 time=135.42 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=10 time=141.98 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=11 time=149.07 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=12 time=140.68 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=13 time=142.22 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=14 time=148.16 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=15 time=136.30 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=16 time=140.44 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=17 time=136.18 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=18 time=143.90 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=19 time=134.25 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=20 time=136.29 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=21 time=143.54 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+22 connects, 22 ok, 0.00% failed, time 25043ms
+round-trip min/avg/max = 133.5/142.2/153.7 ms
+Test number  13
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=144.80 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=136.72 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=143.21 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=133.88 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=131.85 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15163.64 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=146.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=136.80 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=138.59 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25034ms
+round-trip min/avg/max = 131.8/1808.5/15163.6 ms
+Test number  12
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=133.97 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=131.78 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=137.08 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=128.47 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=124.15 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15173.75 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=140.18 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=143.15 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=134.04 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25051ms
+round-trip min/avg/max = 124.1/1805.2/15173.8 ms
+Test number  11
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=128.97 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=132.25 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=126.52 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=129.44 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=122.84 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15152.92 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=135.47 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=135.60 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=133.93 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25057ms
+round-trip min/avg/max = 122.8/1799.8/15152.9 ms
+Test number  10
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=123.39 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=140.96 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=123.17 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=121.77 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=127.74 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15151.40 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=131.86 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=138.12 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=133.84 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25046ms
+round-trip min/avg/max = 121.8/1799.1/15151.4 ms
+Test number  9
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=130.78 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=120.23 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=124.56 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=123.34 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=122.11 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15162.60 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=134.56 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=131.26 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=129.78 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25056ms
+round-trip min/avg/max = 120.2/1797.7/15162.6 ms
+Test number  8
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=123.35 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=121.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=127.05 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=123.36 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=121.09 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15156.73 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=134.21 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=131.31 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=130.68 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25043ms
+round-trip min/avg/max = 121.1/1796.6/15156.7 ms
+Test number  7
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=129.54 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=131.20 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=128.35 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=118.59 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=123.23 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15172.96 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=138.26 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=135.65 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=134.75 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25044ms
+round-trip min/avg/max = 118.6/1801.4/15173.0 ms
+Test number  6
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=145.20 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=132.04 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=125.31 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=120.54 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=123.19 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15157.01 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=133.83 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=150.73 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=129.16 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25059ms
+round-trip min/avg/max = 120.5/1801.9/15157.0 ms
+Test number  5
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=125.50 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=123.92 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=124.91 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=125.31 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=123.96 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15271.89 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=134.29 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=140.52 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=128.14 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25041ms
+round-trip min/avg/max = 123.9/1810.9/15271.9 ms
+Test number  4
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=131.49 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=123.28 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=118.64 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=125.18 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=123.06 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15157.19 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=130.77 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=135.28 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=134.15 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25067ms
+round-trip min/avg/max = 118.6/1797.7/15157.2 ms
+Test number  3
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=121.04 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=120.19 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=120.02 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=127.55 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=123.85 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15153.93 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=129.54 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=134.07 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=130.07 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25045ms
+round-trip min/avg/max = 120.0/1795.6/15153.9 ms
+Test number  2
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=131.26 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=138.54 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=129.82 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=122.11 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=140.19 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15160.45 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=138.63 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=132.93 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=130.75 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25063ms
+round-trip min/avg/max = 122.1/1802.7/15160.4 ms
+Test number  1
+PING 10.0.0.2:80 (10.0.0.2):
+connected to 10.0.0.2:80 (158 bytes), seq=0 time=132.83 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=1 time=120.29 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=2 time=121.84 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=3 time=124.40 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=4 time=122.58 ms 
+Link down 
+After link down 
+connected to 10.0.0.2:80 (158 bytes), seq=5 time=15151.93 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=6 time=129.93 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=7 time=134.60 ms 
+connected to 10.0.0.2:80 (158 bytes), seq=8 time=129.48 ms 
+After link up 
+--- 10.0.0.2 ping statistics ---
+9 connects, 9 ok, 0.00% failed, time 25042ms
+round-trip min/avg/max = 120.3/1796.4/15151.9 ms
