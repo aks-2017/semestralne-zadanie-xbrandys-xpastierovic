@@ -1,8 +1,0 @@
-Nov 18 17:47:48.252 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
-Nov 18 17:47:48.253 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55016.
-Nov 18 17:47:48.374 HYPERVISOR: exec_cmd: hypervisor version 
-Nov 18 17:47:48.377 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\GNS3\projects\DOVI\project-files\dynamips 
-Nov 18 17:47:48.384 GENERAL: working_dir=C:\Users\Dominik\GNS3\projects\DOVI\project-files\dynamips
-Nov 18 17:47:48.386 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\GNS3\projects\DOVI\project-files\dynamips\90e79e43-75eb-42ce-977a-be43231723dc 
-Nov 18 17:47:48.386 GENERAL: working_dir=C:\Users\Dominik\GNS3\projects\DOVI\project-files\dynamips\90e79e43-75eb-42ce-977a-be43231723dc
-Nov 18 17:47:48.390 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
