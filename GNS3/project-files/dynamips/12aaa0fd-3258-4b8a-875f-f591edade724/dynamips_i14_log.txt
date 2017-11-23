@@ -1,0 +1,36 @@
+Nov 20 12:27:25.044 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 20 12:27:25.044 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50179.
+Nov 20 12:27:25.575 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 20 12:27:25.591 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\Desktop\Recycle Bin\DOVI\GNS3\project-files\dynamips 
+Nov 20 12:27:25.591 GENERAL: working_dir=C:\Users\Dominik\Desktop\Recycle Bin\DOVI\GNS3\project-files\dynamips
+Nov 20 12:27:25.606 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\Desktop\Recycle Bin\DOVI\GNS3\project-files\dynamips\0c37d3eb-b757-40df-b382-b9162cfde3ac 
+Nov 20 12:27:25.606 GENERAL: working_dir=C:\Users\Dominik\Desktop\Recycle Bin\DOVI\GNS3\project-files\dynamips\0c37d3eb-b757-40df-b382-b9162cfde3ac
+Nov 20 12:27:25.606 HYPERVISOR: exec_cmd: vm create R16 16 c7200 
+Nov 20 12:27:25.606 VM: VM R16 created.
+Nov 20 12:27:25.606 HYPERVISOR: exec_cmd: vm set_con_tcp_port R16 5029 
+Nov 20 12:27:25.622 HYPERVISOR: exec_cmd: c7200 get_mac_addr R16 
+Nov 20 12:27:25.622 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.622 HYPERVISOR: exec_cmd: vm slot_add_binding R16 0 0 C7200-IO-FE 
+Nov 20 12:27:25.622 HYPERVISOR: exec_cmd: vm set_disk0 R16 0 
+Nov 20 12:27:25.622 HYPERVISOR: exec_cmd: vm set_exec_area R16 64 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: vm set_idle_pc R16 0x606e0000 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: vm set_ios R16 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: c7200 set_mac_addr R16 ca10.0b94.0000 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: vm set_nvram R16 512 
+Nov 20 12:27:25.637 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.653 HYPERVISOR: exec_cmd: vm slot_add_binding R16 1 0 PA-GE 
+Nov 20 12:27:25.653 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.653 HYPERVISOR: exec_cmd: vm slot_add_binding R16 2 0 PA-GE 
+Nov 20 12:27:25.653 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.653 HYPERVISOR: exec_cmd: vm slot_add_binding R16 3 0 PA-GE 
+Nov 20 12:27:25.669 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:25.669 HYPERVISOR: exec_cmd: vm slot_add_binding R16 4 0 PA-GE 
+Nov 20 12:27:25.669 HYPERVISOR: exec_cmd: vm set_config R16 configs/i16_startup-config.cfg 
+Nov 20 12:27:26.466 HYPERVISOR: exec_cmd: vm get_status R16 
+Nov 20 12:27:26.513 HYPERVISOR: exec_cmd: vm extract_config R16 
+Nov 20 12:27:26.559 HYPERVISOR: exec_cmd: vm delete R16 
+Nov 20 12:27:26.559 VM: VM R16 destroyed.
+Nov 20 12:27:26.622 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 20 12:27:27.075 HYPERVISOR: Stopped.
+Nov 20 12:27:27.075 GENERAL: reset done.
