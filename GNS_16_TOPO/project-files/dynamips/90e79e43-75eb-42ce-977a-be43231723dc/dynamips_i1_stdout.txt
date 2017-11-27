@@ -1,8 +1,0 @@
-cygwin warning:
-  MS-DOS style path detected: C:\Users\Dominik\GNS3\projects\DOVI\project-files\dynamips
-  Preferred POSIX equivalent is: /cygdrive/c/Users/Dominik/GNS3/projects/DOVI/project-files/dynamips
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-      0 [unknown (0xE70)] dynamips 2208 C:\Program Files\GNS3\dynamips\dynamips.EXE: *** fatal error - NtCreateEvent(lock): 0xC0000058
-   2447 [unknown (0xE70)] dynamips 2208 cygwin_exception::open_stackdumpfile: Dumping stack trace to dynamips.EXE.stackdump
