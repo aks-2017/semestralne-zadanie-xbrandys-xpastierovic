@@ -1,0 +1,61 @@
+Nov 25 22:48:05.770 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 25 22:48:05.770 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62524.
+Nov 25 22:48:05.780 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 22:48:05.783 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\Desktop\Recycle Bin\DOVI\semestralne-zadanie-xbrandys-xpastierovic\GNS_32_TOPO\project-files\dynamips 
+Nov 25 22:48:05.783 GENERAL: working_dir=C:\Users\Dominik\Desktop\Recycle Bin\DOVI\semestralne-zadanie-xbrandys-xpastierovic\GNS_32_TOPO\project-files\dynamips
+Nov 25 22:48:05.786 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dominik\Desktop\Recycle Bin\DOVI\semestralne-zadanie-xbrandys-xpastierovic\GNS_32_TOPO\project-files\dynamips\b24c8943-796b-4c2c-97ee-0a80486f1cf0 
+Nov 25 22:48:05.787 GENERAL: working_dir=C:\Users\Dominik\Desktop\Recycle Bin\DOVI\semestralne-zadanie-xbrandys-xpastierovic\GNS_32_TOPO\project-files\dynamips\b24c8943-796b-4c2c-97ee-0a80486f1cf0
+Nov 25 22:48:05.789 HYPERVISOR: exec_cmd: vm create R15 15 c7200 
+Nov 25 22:48:05.791 VM: VM R15 created.
+Nov 25 22:48:05.793 HYPERVISOR: exec_cmd: vm set_con_tcp_port R15 5032 
+Nov 25 22:48:05.796 HYPERVISOR: exec_cmd: c7200 get_mac_addr R15 
+Nov 25 22:48:05.799 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.802 HYPERVISOR: exec_cmd: vm slot_add_binding R15 0 0 C7200-IO-FE 
+Nov 25 22:48:05.805 HYPERVISOR: exec_cmd: vm set_disk0 R15 0 
+Nov 25 22:48:05.808 HYPERVISOR: exec_cmd: vm set_exec_area R15 64 
+Nov 25 22:48:05.811 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.814 HYPERVISOR: exec_cmd: vm set_idle_pc R15 0x606e0000 
+Nov 25 22:48:05.818 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 22:48:05.821 HYPERVISOR: exec_cmd: c7200 set_mac_addr R15 ca0f.0aac.0000 
+Nov 25 22:48:05.824 HYPERVISOR: exec_cmd: vm set_nvram R15 512 
+Nov 25 22:48:05.827 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.830 HYPERVISOR: exec_cmd: vm slot_add_binding R15 1 0 PA-GE 
+Nov 25 22:48:05.833 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.836 HYPERVISOR: exec_cmd: vm slot_add_binding R15 2 0 PA-GE 
+Nov 25 22:48:05.840 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.843 HYPERVISOR: exec_cmd: vm slot_add_binding R15 3 0 PA-GE 
+Nov 25 22:48:05.846 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:05.849 HYPERVISOR: exec_cmd: vm slot_add_binding R15 4 0 PA-GE 
+Nov 25 22:48:05.852 HYPERVISOR: exec_cmd: vm set_con_tcp_port R15 5032 
+Nov 25 22:48:05.856 HYPERVISOR: exec_cmd: vm set_config R15 configs/i15_startup-config.cfg 
+Nov 25 22:48:11.892 HYPERVISOR: exec_cmd: nio create_udp udp-67392e04-9777-4de9-9c0d-6d5aac0ba74b 10013 127.0.0.1 10012 
+Nov 25 22:48:11.895 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 1 0 udp-67392e04-9777-4de9-9c0d-6d5aac0ba74b 
+Nov 25 22:48:11.898 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:12.303 HYPERVISOR: exec_cmd: nio create_udp udp-4f40717d-6da5-4865-a9b1-2155f18f0897 10017 127.0.0.1 10016 
+Nov 25 22:48:12.306 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 2 0 udp-4f40717d-6da5-4865-a9b1-2155f18f0897 
+Nov 25 22:48:12.309 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 22:48:12.465 HYPERVISOR: exec_cmd: nio create_udp udp-7a7a3df6-5b14-4dd4-8183-1c172d937239 10018 127.0.0.1 10019 
+Nov 25 22:48:12.469 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R15 3 0 udp-7a7a3df6-5b14-4dd4-8183-1c172d937239 
+Nov 25 22:48:12.472 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 23:21:10.214 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:22:25.444 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:23:28.924 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:24:50.921 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:26:01.646 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:26:02.643 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:26:07.991 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:37:23.471 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:37:26.804 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:37:34.677 HYPERVISOR: exec_cmd: vm set_ios R15 C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:44:00.880 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 25 23:44:00.882 VM: VM Ghost created.
+Nov 25 23:44:00.998 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Dominik/GNS3/images/IOS/c7200-advipservicesk9-m.124-24.T5.bin 
+Nov 25 23:44:01.024 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 25 23:44:01.153 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Dominik\Desktop\Recycle Bin\DOVI\semestralne-zadanie-xbrandys-xpastierovic\GNS_32_TOPO\project-files\dynamips\c7200-advipservicesk9-m.124-24.T5.bin-256.ghost' 
+Nov 25 23:44:01.277 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 25 23:44:01.323 HYPERVISOR: exec_cmd: vm start R15 
+Nov 25 23:44:55.579 HYPERVISOR: exec_cmd: vm extract_config R15 
+Nov 26 01:21:44.940 HYPERVISOR: exec_cmd: vm get_status R15 
+Nov 26 01:21:44.990 HYPERVISOR: exec_cmd: vm stop R15 
+Nov 26 01:21:45.110 VM: VM R15 shutdown.
+Nov 26 01:21:45.115 HYPERVISOR: exec_cmd: vm extract_config R15 
